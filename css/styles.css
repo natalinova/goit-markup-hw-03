@@ -1,0 +1,168 @@
+:root {
+  /*Брендовий відтінок синього*/
+  --brand-color: #2196f3;
+  /* Сірий колір тексту */
+  --grey-text: #757575;
+  /*  Колір бекграунду в блоку Наша команда в Студія */
+  --background-first: #f5f4fa;
+  /* Колір беkграунду в герої та футері  */
+  --background-dark: #2f303a;
+  /* Основний колір тексту */
+  --basic-color: #212121;
+  /*   Білий колір    */
+  --color-white: #ffffff;
+  /* Колір телефону і емейлу в футері */
+  --footer-color: rgba(255, 255, 255, 0.6);
+  /* Основний шрифт */
+  --basic-text: "Roboto";
+}
+body {
+  font-family: var(--basic-text);
+  color: var(--basic-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+li {
+  list-style-type: none;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+/* Стилі хувера  */
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-first {
+  color: var(--brand-color);
+}
+.nav-link {
+  color: inherit;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--brand-color);
+}
+/* стилі кнопок в Портфоліо*/
+.portfolio-button {
+  background-color: var(--background-first);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--brand-color);
+}
+/* Стилізація блоків в портфоліо  */
+.portfolio-item-head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item-text {
+  color: var(--grey-text);
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+
+/* Стилізація сторінки Студіо - Герой */
+.hero-all {
+  background-color: var(--background-dark);
+}
+.hero-head {
+  font-weight: 900;
+  color: var(--color-white);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.hero-button {
+  background-color: var(--brand-color);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/*   Стилізація блоку Наші переваги */
+.ourplus-head {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.ourplus-text {
+  line-height: 1.71;
+  color: var(--grey-text);
+}
+/* Стилізація блоку Чим ми займаємось */
+.whatwedo-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Стилізація блоку Команда */
+.team {
+  background-color: var(--background-first);
+}
+.team-head-big {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-head-small {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--grey-text);
+  letter-spacing: 0.03em;
+}
+
+/* Стилізація футера   */
+.footer-all {
+  background-color: var(--background-dark);
+}
+.logo-second {
+  color: var(--color-white);
+}
+.footer-adress {
+  color: var(--color-white);
+  line-height: 1.71;
+}
+.footer-contacts {
+  line-height: 1.71;
+  color: var(--footer-color);
+}
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--brand-color);
+}
