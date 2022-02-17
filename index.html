@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body >
@@ -55,35 +57,41 @@
         
     </section>
     <!--Блок 3 - "Чим ми займаємось"-->
-    <section class="whatwedo container">
+    <section class="whatwedo">
+        <div class="container">
         <h2 class="whatwedo-head">Чем мы занимаемся</h2>
         <ul class="whatwedo-img">
             <li class="whatwedo-item"><img src="./images/imgcomp.jpg" alt="Разработка для ноутбуков" width="370" height="294"></li>
             <li class="whatwedo-item"><img src="./images/imgtel.jpg" alt="Pазработка для телефонов" width="370" height="294"></li>
             <li class="whatwedo-item"><img src="./images/imgplansh.jpg" alt="Разработка для планшетов" width="370" height="294"></li>
         </ul>
+        </div>
     </section>
     <!-- Блок 4 - "Команда"-->
     <section class="team">
+        <div class="container">
         <h2 class="team-head-big">Наша команда</h2>
-        <ul class="team-list">
+        <ul class="team-list container">
             <li class="team-item"> <img src="./images/demjanenko.jpg" alt="Игорь Демьяненко" width="270" height="260"> <h3 class="team-head-small">Игорь Демьяненко</h3> <p class="team-text" lang="en">Product Designer</p></li>
             <li class="team-item"><img src="./images/repina.jpg" alt="Ольга Репина" width="270" height="260"> <h3 class="team-head-small">Ольга Репина</h3> <p class="team-text" lang="en">Frontend Developer</p></li>
             <li class="team-item"><img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270" height="260">  <h3 class="team-head-small">Николай Тарасов</h3> <p class="team-text" lang="en">Marketing</p></li>
             <li class="team-item"><img src="./images/ermakov.jpg" alt="Михаил Ермаков" width="270" height="260"> <h3 class="team-head-small">Михаил Ермаков</h3> <p class="team-text" lang="en">UI Designer</p></li>
         </ul>
+        </div>
     </section>
 </main>
     <!-- Блок 5 - Футер -->
 <footer class="footer-all">
+    <div class="container">
         <a class="logo"lang="en" href="" ><span class="logo-first">Web</span> <span class="logo-second">Studio</span></a>
         <address> 
-        <ul>
+        <ul class="adress">
             <li ><a class="footer-adress" href="https://goo.gl/maps/Vsg7L2Um9kdT5Cuy6" target="_blank" rel="noreferrer noopener" >г. Киев, пр-т Леси Украинки, 26</a></li>
             <li> <a class="footer-contacts"lang="en" href="mailto:info@example.com">info@example.com</a></li>
             <li> <a class="footer-contacts" href="tel:+380991111111" >+38 099 111 11 11</a> </li>
         </ul>
         </address>
+        </div>
 </footer>
 </body>
 </html>
